@@ -7,7 +7,7 @@ def fibonacci(numero):
 	else:
 		return fibonacci(numero-1)+fibonacci(numero-2)
 
-# Funcion que valida si el numero ingreso es
+# Funcion que valida si el numero ingreso coincide con un numero de Fibonacci
 def validar(iterador, input):
     if(input == fibonacci(iterador)):
         return iterador
