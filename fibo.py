@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Funcion que calcula el numero de Fibonacci
+# Funcion que calcula el numero de Fibonacci en forma recursiva
 def fibonacci(numero):
 	if (numero < 2):
 		return numero
