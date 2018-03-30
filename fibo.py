@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 
@@ -20,11 +21,11 @@ def validar(iterador, input):
 
 # Funcion principal.
 def run():
-	input = int(raw_input('Escribe el numero Fibonacci: '))
+	fibo = int(input('Escribe el numero Fibonacci: '))
 
-	posicion = validar(0, input)
+	posicion = validar(0, fibo)
 
-	print 'Fibonacci(' + str(input) + ') -> ' + str(fibonacci(posicion-1)) + ', ' + str(fibonacci(posicion-2))
+	print ('Fibonacci(' + str(fibo) + ') -> ' + str(fibonacci(posicion-1)) + ', ' + str(fibonacci(posicion-2)))
 
 
 # Nuestro programa empieza aqui.
